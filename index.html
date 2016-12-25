@@ -70,24 +70,35 @@
     <ion-side-menu-content>
       <ion-nav-bar class="bar-stable">
         <ion-nav-back-button></ion-nav-back-button>
-        <ion-nav-buttons side="right">
-          <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+        <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
         </ion-nav-buttons>
       </ion-nav-bar>
       <ion-nav-view></ion-nav-view>
     </ion-side-menu-content>
-    <ion-side-menu side="right" id="side-menu21" style="background-color:#FFFFFF;">
+    <ion-side-menu side="left" id="side-menu21" style="background-color:#FFFFFF;">
       <ion-header-bar class="bar-stable">
-        <div class="title">Menu</div>
+        <div class="title">Predators</div>
       </ion-header-bar>
-      <ion-content ng-controller="menuCtrl" padding="true" class="side-menu-right has-header ">
-        <div data-componentid="image1" style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
-          <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
-        </div>
-        <ion-list id="menu-list1" data-componentid="list1">
-          <ion-item id="menu-list-item4" data-componentid="list-item4">Item 1</ion-item>
-          <ion-item id="menu-list-item5" data-componentid="list-item5">Item 2</ion-item>
-          <ion-item id="menu-list-item6" data-componentid="list-item6">Item 3</ion-item>
+      <ion-content ng-controller="predatorsCtrl" padding="false" class="side-menu-left has-header ">
+        <ion-list id="predators-list3" data-componentid="list3">
+          <ion-item class="item-thumbnail-left assertive" id="predators-list-item16" ui-sref="about" menu-close="" data-componentid="list-item16">
+            <h2assertive>SPCP
+              <p style="white-space:normal;">ACADEMY</p>
+            </h2assertive>
+          </ion-item>
+          <ion-item class="item-icon-left assertive" id="predators-list-item9" ui-sref="home" menu-close="" data-componentid="list-item9">
+            <i class="icon ion-android-home"></i>Home</ion-item>
+          <ion-item class="item-icon-left assertive" id="predators-list-item10" ui-sref="news" menu-close="" data-componentid="list-item10">
+            <i class="icon ion-ios-world"></i>News</ion-item>
+          <ion-item class="item-icon-left assertive" id="predators-list-item14" ui-sref="matchDay" menu-close="" data-componentid="list-item14">
+            <i class="icon ion-ios-football"></i>Match Day</ion-item>
+          <ion-item class="item-icon-left assertive" id="predators-list-item12" ui-sref="fixturesResults" menu-close="" data-componentid="list-item12">
+            <i class="icon ion-android-calendar"></i>Fixtures &amp; Results</ion-item>
+          <ion-item class="item-icon-left assertive" id="predators-list-item11" ui-sref="players" menu-close="" data-componentid="list-item11">
+            <i class="icon ion-tshirt"></i>Players</ion-item>
+          <ion-item class="item-icon-left assertive" id="predators-list-item13" ui-sref="competitions" menu-close="" data-componentid="list-item13">
+            <i class="icon ion-trophy"></i>Competitions</ion-item>
         </ion-list>
       </ion-content>
     </ion-side-menu>
