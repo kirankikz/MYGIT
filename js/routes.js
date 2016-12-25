@@ -16,17 +16,37 @@ angular.module('app.routes', [])
     abstract:true
   })
 
-  .state('tabsController.home', {
-    url: '/page6',
-    views: {
-      'tab6': {
-        templateUrl: 'templates/home.html',
-        controller: 'homeCtrl'
-      }
-    }
+  .state('page', {
+    url: '/page5',
+    templateUrl: 'templates/page.html',
+    controller: 'pageCtrl'
   })
 
-$urlRouterProvider.otherwise('/page1/page6')
+  .state('page2', {
+    url: '/page8',
+    templateUrl: 'templates/page2.html',
+    controller: 'page2Ctrl'
+  })
+
+  .state('page3', {
+    url: '/page6',
+    templateUrl: 'templates/page3.html',
+    controller: 'page3Ctrl'
+  })
+
+  .state('page4', {
+    url: '/page7',
+    templateUrl: 'templates/page4.html',
+    controller: 'page4Ctrl'
+  })
+
+  .state('page5', {
+    url: '/page9',
+    templateUrl: 'templates/page5.html',
+    controller: 'page5Ctrl'
+  })
+
+$urlRouterProvider.otherwise('/page5')
 
   
 
