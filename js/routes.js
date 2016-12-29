@@ -22,22 +22,22 @@ angular.module('app.routes', [])
     controller: 'homeCtrl'
   })
 
-  .state('news', {
-    url: '/page6',
-    templateUrl: 'templates/news.html',
-    controller: 'newsCtrl'
-  })
-
   .state('matchDay', {
     url: '/page7',
     templateUrl: 'templates/matchDay.html',
     controller: 'matchDayCtrl'
   })
 
-  .state('fixturesResults', {
+  .state('fixtures', {
     url: '/page8',
-    templateUrl: 'templates/fixturesResults.html',
-    controller: 'fixturesResultsCtrl'
+    templateUrl: 'templates/fixtures.html',
+    controller: 'fixturesCtrl'
+  })
+
+  .state('results', {
+    url: '/page32',
+    templateUrl: 'templates/results.html',
+    controller: 'resultsCtrl'
   })
 
   .state('players', {
@@ -58,124 +58,172 @@ angular.module('app.routes', [])
     controller: 'aboutCtrl'
   })
 
-  .state('page', {
+  .state('ricky', {
     url: '/page12',
-    templateUrl: 'templates/page.html',
-    controller: 'pageCtrl'
+    templateUrl: 'templates/ricky.html',
+    controller: 'rickyCtrl'
   })
 
-  .state('page2', {
+  .state('boney', {
     url: '/page13',
-    templateUrl: 'templates/page2.html',
-    controller: 'page2Ctrl'
+    templateUrl: 'templates/boney.html',
+    controller: 'boneyCtrl'
   })
 
-  .state('page3', {
+  .state('ameen', {
     url: '/page14',
-    templateUrl: 'templates/page3.html',
-    controller: 'page3Ctrl'
+    templateUrl: 'templates/ameen.html',
+    controller: 'ameenCtrl'
   })
 
-  .state('page4', {
+  .state('aneesh', {
     url: '/page15',
-    templateUrl: 'templates/page4.html',
-    controller: 'page4Ctrl'
+    templateUrl: 'templates/aneesh.html',
+    controller: 'aneeshCtrl'
   })
 
-  .state('page5', {
+  .state('ankit', {
     url: '/page16',
-    templateUrl: 'templates/page5.html',
-    controller: 'page5Ctrl'
+    templateUrl: 'templates/ankit.html',
+    controller: 'ankitCtrl'
   })
 
-  .state('page6', {
+  .state('arjunRono', {
     url: '/page17',
-    templateUrl: 'templates/page6.html',
-    controller: 'page6Ctrl'
+    templateUrl: 'templates/arjunRono.html',
+    controller: 'arjunRonoCtrl'
   })
 
-  .state('page7', {
+  .state('asif', {
     url: '/page18',
-    templateUrl: 'templates/page7.html',
-    controller: 'page7Ctrl'
+    templateUrl: 'templates/asif.html',
+    controller: 'asifCtrl'
   })
 
-  .state('page8', {
+  .state('aslam', {
     url: '/page19',
-    templateUrl: 'templates/page8.html',
-    controller: 'page8Ctrl'
+    templateUrl: 'templates/aslam.html',
+    controller: 'aslamCtrl'
   })
 
-  .state('page9', {
+  .state('bhavesh', {
     url: '/page20',
-    templateUrl: 'templates/page9.html',
-    controller: 'page9Ctrl'
+    templateUrl: 'templates/bhavesh.html',
+    controller: 'bhaveshCtrl'
   })
 
-  .state('page10', {
+  .state('harish', {
     url: '/page21',
-    templateUrl: 'templates/page10.html',
-    controller: 'page10Ctrl'
+    templateUrl: 'templates/harish.html',
+    controller: 'harishCtrl'
   })
 
-  .state('page11', {
+  .state('harsha', {
     url: '/page22',
-    templateUrl: 'templates/page11.html',
-    controller: 'page11Ctrl'
+    templateUrl: 'templates/harsha.html',
+    controller: 'harshaCtrl'
   })
 
-  .state('page12', {
+  .state('jasir', {
     url: '/page23',
-    templateUrl: 'templates/page12.html',
-    controller: 'page12Ctrl'
+    templateUrl: 'templates/jasir.html',
+    controller: 'jasirCtrl'
   })
 
-  .state('page13', {
+  .state('kiran', {
     url: '/page24',
-    templateUrl: 'templates/page13.html',
-    controller: 'page13Ctrl'
+    templateUrl: 'templates/kiran.html',
+    controller: 'kiranCtrl'
   })
 
-  .state('page14', {
+  .state('kiranNair', {
     url: '/page25',
-    templateUrl: 'templates/page14.html',
-    controller: 'page14Ctrl'
+    templateUrl: 'templates/kiranNair.html',
+    controller: 'kiranNairCtrl'
   })
 
-  .state('page15', {
+  .state('koko', {
     url: '/page26',
-    templateUrl: 'templates/page15.html',
-    controller: 'page15Ctrl'
+    templateUrl: 'templates/koko.html',
+    controller: 'kokoCtrl'
   })
 
-  .state('page16', {
+  .state('lukku', {
     url: '/page27',
-    templateUrl: 'templates/page16.html',
-    controller: 'page16Ctrl'
+    templateUrl: 'templates/lukku.html',
+    controller: 'lukkuCtrl'
   })
 
-  .state('page17', {
+  .state('mtukushi', {
     url: '/page28',
-    templateUrl: 'templates/page17.html',
-    controller: 'page17Ctrl'
+    templateUrl: 'templates/mtukushi.html',
+    controller: 'mtukushiCtrl'
   })
 
-  .state('page18', {
+  .state('muneeb', {
     url: '/page29',
-    templateUrl: 'templates/page18.html',
-    controller: 'page18Ctrl'
+    templateUrl: 'templates/muneeb.html',
+    controller: 'muneebCtrl'
   })
 
-  .state('page19', {
+  .state('ramdas', {
     url: '/page30',
-    templateUrl: 'templates/page19.html',
-    controller: 'page19Ctrl'
+    templateUrl: 'templates/ramdas.html',
+    controller: 'ramdasCtrl'
   })
 
-  .state('page20', {
+  .state('raviraj', {
     url: '/page31',
-    templateUrl: 'templates/page20.html',
-    controller: 'page20Ctrl'
+    templateUrl: 'templates/raviraj.html',
+    controller: 'ravirajCtrl'
+  })
+
+  .state('saket', {
+    url: '/page33',
+    templateUrl: 'templates/saket.html',
+    controller: 'saketCtrl'
+  })
+
+  .state('sathyajith', {
+    url: '/page34',
+    templateUrl: 'templates/sathyajith.html',
+    controller: 'sathyajithCtrl'
+  })
+
+  .state('saurav', {
+    url: '/page35',
+    templateUrl: 'templates/saurav.html',
+    controller: 'sauravCtrl'
+  })
+
+  .state('sreenath', {
+    url: '/page36',
+    templateUrl: 'templates/sreenath.html',
+    controller: 'sreenathCtrl'
+  })
+
+  .state('suraj', {
+    url: '/page37',
+    templateUrl: 'templates/suraj.html',
+    controller: 'surajCtrl'
+  })
+
+  .state('sushmit', {
+    url: '/page39',
+    templateUrl: 'templates/sushmit.html',
+    controller: 'sushmitCtrl'
+  })
+
+  .state('vinod', {
+    url: '/page40',
+    templateUrl: 'templates/vinod.html',
+    controller: 'vinodCtrl'
+  })
+
+  .state('vysakhRaj', {
+    url: '/page38',
+    templateUrl: 'templates/vysakhRaj.html',
+    controller: 'vysakhRajCtrl'
   })
 
 $urlRouterProvider.otherwise('/page5')
