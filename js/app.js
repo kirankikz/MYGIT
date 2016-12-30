@@ -65,12 +65,10 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
     replace: false,
     transclude: false,
     link: function(scope, element, attrs) {
-      var place = attrs['hrefInappbrowser'] || '_system';
+      var href = attrs['hrefInappbrowser'];
       element.bind('click', function (event) {
 
-        var href = event.currentTarget.href;
-
-        window.open(href, place, 'location=yes');
+        window.open(href, '_system', 'location=yes');
 
         event.preventDefault();
         event.stopPropagation();
