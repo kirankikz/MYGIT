@@ -226,6 +226,18 @@ angular.module('app.routes', [])
     controller: 'vysakhRajCtrl'
   })
 
+  .state('wFSL', {
+    url: '/page41',
+    templateUrl: 'templates/wFSL.html',
+    controller: 'wFSLCtrl'
+  })
+
+  .state('wPL', {
+    url: '/page42',
+    templateUrl: 'templates/wPL.html',
+    controller: 'wPLCtrl'
+  })
+
 $urlRouterProvider.otherwise('/page5')
 
   
