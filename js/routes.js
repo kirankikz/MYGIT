@@ -238,6 +238,12 @@ angular.module('app.routes', [])
     controller: 'wPLCtrl'
   })
 
+  .state('footballFacts', {
+    url: '/page43',
+    templateUrl: 'templates/footballFacts.html',
+    controller: 'footballFactsCtrl'
+  })
+
 $urlRouterProvider.otherwise('/page5')
 
   
