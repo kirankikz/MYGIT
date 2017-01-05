@@ -22,12 +22,6 @@ angular.module('app.routes', [])
     controller: 'homeCtrl'
   })
 
-  .state('matchDay', {
-    url: '/page7',
-    templateUrl: 'templates/matchDay.html',
-    controller: 'matchDayCtrl'
-  })
-
   .state('fixtures', {
     url: '/page8',
     templateUrl: 'templates/fixtures.html',
